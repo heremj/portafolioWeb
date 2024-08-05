@@ -1,0 +1,867 @@
+body{
+    background-color: black;
+}
+
+/* INICIO */
+
+.caja1 {
+    height: 100%;
+    background-color: #000000;
+    justify-content: end;
+    align-items: center;
+}
+.caja1 img{
+    width: 100%;
+}
+
+.caja2 {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    left: 0;
+    margin-top: -70px;
+    z-index: 0;
+}
+
+.blog1 {
+    color: white;
+    font-size: 40px;
+    font-family: "Arimo", sans-serif;
+    position: absolute;
+    z-index: 1;
+}
+
+.blog1 a{
+    text-decoration: none;
+    
+}
+
+.blog1 a:hover{
+    color: #D0FF00;
+}
+
+.portafolio1 {
+    color: white;
+    font-size: 30px;
+    font-family: "Arimo", sans-serif; 
+    text-align: center;
+}
+
+.sobreMi1 {
+    color: white;
+    font-size: 30px;
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+}
+
+.contacto1 {
+    color: white;
+    font-size: 30px;
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+}
+
+.tituloinicio {
+    color: white;
+    font-size: 50px;
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+}
+/* INICIO */
+
+
+/* BLOG */
+.header-blog{
+    background-color: #000000;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    padding: 0px 0px;
+    margin-left: -12px;
+}
+.caja4{
+    background-color: rgb(166, 238, 32);
+    height: 2000px;
+}
+
+.caja5 {
+    background-color: rgb(169, 118, 218);
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja6 {
+    background-color: rgb(207, 115, 115);
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja7 {
+    background-color: rgb(192, 149, 149);
+    height: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja8 {
+    background-color: rgb(169, 118, 218);
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja9 {
+    background-color: rgb(207, 115, 115);
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja10 {
+    background-color: rgb(192, 149, 149);
+    height: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja11 {
+    background-color: rgb(166, 238, 32);
+    height: 2000px;
+}
+
+.inicio-blog {
+    color: white;
+    font-size: 30px;
+    font-family: "Arimo", sans-serif; 
+    text-align: center;
+    text-decoration: none;
+}
+
+.inicio-blog a:hover{
+    color: #D0FF00;
+}
+
+.blogtitulo {
+    color: white;
+    font-size: 80px;
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.titulo1-blog {
+    color: white;
+    font-size: 20px;
+    font-family: "Arimo", bold;
+}
+
+.titulo2-blog {
+    color: white;
+    font-size: 19px;
+    font-family: "Arimo", bold;
+}
+
+.texto1-blog {
+    color: white;
+    font-size: 20px;
+    font-family: "Arimo", sans-serif;
+}
+
+.texto2-blog {
+    color: white;
+    font-size: 20px;
+    font-family: "Arimo", sans-serif;
+}
+
+.kpopimg {
+    width: 100%;
+}
+
+.poster {
+    width: auto;
+    float: left;
+}
+
+.poster2 {
+    width: auto;
+    float: left;
+}
+/* BLOG */
+
+
+/* PORTAFOLIO */
+.caja12 {
+
+    height: 850px;
+}
+
+.caja13 {
+
+    height: 250px;
+}
+
+.caja14 {
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja15 {
+
+    height: 200px;
+}
+
+.caja16 {
+    height: 200px;
+}
+
+.caja17 {
+    height: 850px;
+}
+
+.inicio1 {
+    color: white;
+    font-size: 30px;
+    font-family: "Arimo", sans-serif; 
+    text-align: center;
+}
+
+.sobreMi1 {
+    color: white;
+    font-size: 30px;
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+}
+
+.contacto1 {
+    color: white;
+    font-size: 30px;
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+}
+
+.portafoliotitulo {
+    color: white;
+    font-size: 80px;
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.branding1 {
+    color: white;
+    font-size: 40px;
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+}
+
+.branding1 a{
+    text-decoration: none;
+    color: white;  
+}
+
+.branding1 a:hover{
+    color: #D0FF00;
+}
+
+.edicion1 {
+    color: white;
+    font-size: 40px;
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+}
+
+.edicion1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.edicion1 a:hover{
+    color: #D0FF00;
+}
+
+.ilustracion1 {
+    color: white;
+    font-size: 40px;
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+}
+
+.ilustracion1 a{
+   text-decoration: none;
+   color: white; 
+}
+
+.ilustracion1 a:hover{
+    color: #D0FF00;
+}
+
+/* PORTAFOLIO */
+
+
+/* SOBRE MÍ */
+.caja18 {
+    height: 300px;
+}
+
+.caja19 {
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.caja20 {
+    height: 500px;
+}
+
+.sobremititulo {
+    color: white;
+    font-size: 80px;
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.inicio1 {
+    color: white;
+    font-size: 30px;
+    font-family: "Arimo", sans-serif; 
+    text-align: center;
+}
+
+.portafolio1 {
+    color: white;
+    font-size: 30px;
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+}
+
+.contacto1 {
+    color: white;
+    font-size: 30px;
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+}
+
+.texto-sobremi {
+    color: white;
+    font-size: 40px;
+    font-family: "Arimo", sans-serif;
+}
+
+.fotomajo{
+    height: 100%;
+}
+/* SOBRE MÍ */
+
+
+/* CONTACTO */
+.caja21 {
+
+    height: 300px;
+}
+
+.caja2 {
+
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja23 {
+
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja24 {
+
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja25 {
+
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja26 {
+
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja27 {
+
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja28 {
+
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja29 {
+
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja30 {
+
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactotitulo {
+    color: white;
+    font-size: 80px;
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.inicio1 {
+    color: white;
+    font-size: 30px;
+    font-family: "Arimo", sans-serif; 
+    text-align: center;
+}
+
+.portafolio1 {
+    color: white;
+    font-size: 30px;
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+}
+
+.sobreMi1 {
+    color: white;
+    font-size: 30px;
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+}
+
+.correo1-contacto {
+    color: white;
+    font-size: 20px;
+    font-family: "Arimo", sans-serif;
+}
+
+.instagram1-contacto {
+    color: white;
+    font-size: 20px;
+    font-family: "Arimo", sans-serif;
+}
+
+.github1-contacto {
+    color: white;
+    font-size: 20px;
+    font-family: "Arimo", sans-serif;
+}
+
+.correoimg {
+    width: 356px;
+}
+
+.instaimg {
+    width: 270px;
+}
+
+.githubimg {
+    width: 260px;
+}
+/* CONTACTO */
+
+
+/* BRANDING */
+.caja31 {
+    background-color: rgb(101, 197, 165);
+    height: 300px;
+}
+
+.caja32 {
+    background-color: rgb(162, 162, 250);
+    height: 500px;
+}
+
+.caja33 {
+    background-color: rgb(169, 224, 158);
+    height: 500px;
+}
+
+.caja34 {
+    background-color: rgb(250, 162, 216);
+    height: 500px;
+}
+
+.inicio1 {
+    color: white;
+    font-size: 30px;
+    font-family: "Arimo", sans-serif; 
+    text-align: center;
+}
+
+.portafolio1 {
+    color: white;
+    font-size: 30px;
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+}
+
+.contacto1 {
+    color: white;
+    font-size: 30px;
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+}
+
+.brandingtitulo {
+    color: white;
+    font-size: 80px;
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+/* BRANDING */
+
+
+/* EDICIÓN */
+.caja35 {
+    height: 300px;
+}
+
+.caja36 {
+    height: 500px;
+}
+
+.caja37 {
+    background-color: rgb(169, 224, 158);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja38 {
+    background-color: rgb(169, 224, 158);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja39 {
+    height: 500px;
+}
+
+.inicio1 {
+    color: white;
+    font-size: 30px;
+    font-family: "Arimo", sans-serif; 
+    text-align: center;
+}
+
+.portafolio1 {
+    color: white;
+    font-size: 30px;
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+}
+
+.contacto1 {
+    color: white;
+    font-size: 30px;
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+}
+
+.ediciontitulo {
+    color: white;
+    font-size: 80px;
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.cervezaimg {
+    width: 100%;
+}
+
+.randomimg {
+    width: 100%;
+}
+/* EDICIÓN */
+
+
+/* ILUSTRACIÓN */
+.caja40 {
+    background-color: rgb(101, 197, 165);
+    height: 300px;
+}
+
+.caja41 {
+    background-color: rgb(162, 162, 250);
+    height: 500px;
+}
+
+.caja42 {
+    background-color: rgb(169, 224, 158);
+    height: 500px;
+}
+
+.caja43 {
+    background-color: rgb(250, 162, 216);
+    height: 500px;
+}
+
+.inicio1 {
+    color: white;
+    font-size: 30px;
+    font-family: "Arimo", sans-serif; 
+    text-align: center;
+}
+
+.portafolio1 {
+    color: white;
+    font-size: 30px;
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+}
+
+.contacto1 {
+    color: white;
+    font-size: 30px;
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+}
+
+.ilustraciontitulo {
+    color: white;
+    font-size: 80px;
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+/* ILUSTRACIÓN */
+
+/* hamburguesa */
+.header{
+    height: 100px;
+    padding: 0 50px;
+    color: white; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.menu{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    transition: 0.4s;
+}
+.mostrar-menu,
+.esconder-menu{
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: 0.4s;
+}
+.menu a{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.mostrar-menu{
+    order: 1;
+}
+.menu a:hover,
+.mostrar-menu,
+.esconder-menu{
+    color: #D0FF00;
+}
+#check{
+    display: none;
+}
+@media(max-width: 768px){
+    .mostrar-menu,
+    .esconder-menu{
+        display: block;
+    }
+    .menu{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #000000;
+        right: -100%;
+        top: 0%;
+        text-align: center;
+        padding: 100px 0;
+        z-index: 100px;
+        transition: 0.8s;
+    }
+    .menu a{
+        display: block;
+        padding: 20px;
+    }
+    .esconder-menu{
+        position: absolute;
+        top: 40px;
+        right: 40px;
+    }
+    #check:checked ~ .menu{
+        right: 0;
+    }
+}
+/* FIN HAMBURUESA */
+
+/* MEDIAQUERE */
+    /* 4K */
+    @media(max-width: 2650px){
+        .fotoindex{
+            height: 100%;
+        }
+        .correoimg {
+            width: 100%;
+        }
+        
+        .instaimg {
+            width: 100%;
+        }
+        
+        .githubimg {
+            width: 856px;
+            height: 856px;
+        }
+    
+        .caja25{
+            margin-top: 50px;
+        }
+    
+        .caja26{
+            margin-top: 50px;
+        }
+    
+        .caja27{
+            margin-top: 50px;
+        }
+        .caja25{
+        margin-top: 50px;
+        }
+        .caja26{
+            margin-top: 50px;
+        }
+        .caja27{
+            margin-top: 50px;
+        }
+    }
+    /* 4K */
+
+    /* LAPTOP */
+    @media(max-width: 1440px){
+        .fotoindex{
+            height: 100%;
+        }
+        .caja22 {
+            margin-bottom: 10px;
+        }
+    }
+    /* LAPTOP */
+
+    /* TABLET */
+    @media(max-width: 768px){
+        .fotoindex{
+            height: 100%;
+        }
+        .caja4{
+            display: none;
+        }
+        .caja11{
+            display: none;
+        }
+        .caja12{
+            display: none;
+        }
+        .caja17{
+            display: none;
+        }
+        .portafoliotitulo{
+            font-size: 50px;
+        }
+        .sobremititulo{
+            font-size: 50px;
+        }
+        .contactotitulo{
+            font-size: 50px;
+        }
+        .correo1-contacto{
+            font-size: 40px;
+        }
+        .instagram1-contacto{
+            font-size: 40px;
+        }
+        .github1-contacto{
+            font-size: 40px;
+        }
+    }
+    /* TABLET */
+
+    /* MÓVIL */
+    @media(max-width: 425px){
+        .fotoindex{
+            height: 100%;
+        }
+    }
+    /* MÓVIL */
+
+    /* Contacto */
+    @media(max-width:2804px){
+        .caja25{
+            margin-top: 50px;
+        }
+    
+        .caja26{
+            margin-top: 50px;
+        }
+    
+        .caja27{
+            margin-top: 50px;
+        }
+    }
+    /* Contacto */
