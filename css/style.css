@@ -17,12 +17,12 @@ body{
 .caja2 {
     height: 50px;
     width: 200px;
-    background-color: rgb(184, 89, 89);
     left: 0;
     z-index: 0;
 }
 
 .blog1 {
+    font-weight: bold;
     color: white;
     font-size: 40px;
     font-family: "Arimo", sans-serif;
@@ -42,6 +42,7 @@ body{
 }
 
 .portafolio1 {
+    font-weight: bold;
     color: white;
     font-size: 30px;
     font-family: "Arimo", sans-serif; 
@@ -49,6 +50,7 @@ body{
 }
 
 .sobreMi1 {
+    font-weight: bold;
     color: white;
     font-size: 30px;
     font-family: "Arimo", sans-serif;
@@ -56,6 +58,7 @@ body{
 }
 
 .contacto1 {
+    font-weight: bold;
     color: white;
     font-size: 30px;
     font-family: "Arimo", sans-serif;
@@ -798,6 +801,18 @@ body{
         .blog1{
             font-size: 80px;
         }
+        .portafolio1 {
+            font-size: 50px;
+        }
+        .sobreMi1 {
+            font-size: 50px;
+        }
+        .contacto1 {
+            font-size: 50px;
+        }
+        .kpopimg {
+            width: 50%;
+        }
     }
     /* 4K */
 
@@ -816,6 +831,18 @@ body{
         .blog1{
             font-size: 50px;
         }
+        .portafolio1 {
+            font-size: 30px;
+        }
+        .sobreMi1 {
+            font-size: 30px;
+        }
+        .contacto1 {
+            font-size: 30px;
+        }
+        .kpopimg {
+            width: 100%;
+        }
     }
     /* LAPTOP */
 
@@ -823,12 +850,6 @@ body{
     @media(max-width: 768px){
         .fotoindex{
             height: 100%;
-        }
-        .caja4{
-            display: none;
-        }
-        .caja11{
-            display: none;
         }
         .caja12{
             display: none;
@@ -861,6 +882,9 @@ body{
         .blog1{
             font-size: 30px;
         }
+        .kpopimg{
+            width: 100%
+        }
     }
     /* TABLET */
 
@@ -875,6 +899,9 @@ body{
         }
         .blog1{
             font-size: 15px;
+        }
+        .tituloinicio {
+            font-size: 20px;
         }
     }
     /* MÓVIL */
@@ -894,3 +921,17 @@ body{
         }
     }
     /* Contacto */
+
+    /* Blog */
+    @media(max-width:1199px){
+        .caja4{
+            display: none;
+        }
+        .caja11{
+            display: none;
+        }
+        .kpopimg{
+            width: 60%
+        }
+    }
+    /* Blog */
