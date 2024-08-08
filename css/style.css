@@ -189,10 +189,6 @@ body{
     font-family: "Arimo", sans-serif;
 }
 
-.kpopimg {
-    width: 100%;
-}
-
 .poster {
     width: auto;
     float: left;
@@ -883,10 +879,21 @@ body{
             font-size: 30px;
         }
         .kpopimg{
-            width: 100%
+            width: 200%;
         }
+        
     }
     /* TABLET */
+
+    /* TABLET 2*/
+    @media (min-width: 767px) and (max-width: 1024px) {
+        .kpopimg {
+            width: 100%; 
+            height: auto; 
+            object-fit: cover;
+        }
+    }
+    /* TABLET 2*/
 
     /* MÓVIL */
     @media(max-width: 425px){
@@ -903,8 +910,43 @@ body{
         .tituloinicio {
             font-size: 20px;
         }
+        .kpopimg{
+            width: 100%;
+        }
+        .titulo1-blog{
+            font-size: 15px;
+        }
+        .caja5{
+            height: 250px;
+        }
     }
     /* MÓVIL */
+
+    /* MÓVIL 2*/
+    @media (min-width: 374px) and (max-width: 425px) {
+        .caja5 {
+            height: 250px;
+        }
+        .kpopimg {
+            width: 100%; 
+            height: auto; 
+            object-fit: cover;
+        }
+    }
+    /* MÓVIL 2*/
+
+    /* MÓVIL 3*/
+    @media (min-width: 319px) and (max-width: 375px) {
+        .caja5 {
+            height: 150px;
+        }
+        .kpopimg {
+            width: 100%; 
+            height: auto; 
+            object-fit: cover;
+        }
+    }
+    /* MÓVIL 3*/
 
     /* Contacto */
     @media(max-width:2804px){
@@ -935,3 +977,18 @@ body{
         }
     }
     /* Blog */
+
+/* AYUDA IA */
+    
+    /* Estilo para caja5 en tabletas */
+@media (min-width: 424px) and (max-width: 768px) {
+    .caja5 {
+        padding: 15px; /* Agrega un poco de espacio interno para mejorar el diseño en tabletas */
+    }
+
+    .kpopimg {
+        width: 90%; 
+        height: auto; 
+        object-fit: cover;
+    }
+}
