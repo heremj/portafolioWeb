@@ -189,15 +189,6 @@ body{
     font-family: "Arimo", sans-serif;
 }
 
-.poster {
-    width: auto;
-    float: left;
-}
-
-.poster2 {
-    width: auto;
-    float: left;
-}
 /* BLOG */
 
 
@@ -812,6 +803,23 @@ body{
     }
     /* 4K */
 
+    /* 4K 2*/
+    @media (min-width: 1440px) and (max-width: 2560px) {
+        .poster {
+                width: 19%; 
+                height: auto; 
+                object-fit: cover;
+                float: left;
+        }
+        .poster2 {
+            width: 19%; 
+            height: auto; 
+            object-fit: cover;
+            float: left;
+    }
+    }
+    /* 4K 2*/
+
     /* LAPTOP */
     @media(max-width: 1440px){
         .fotoindex{
@@ -841,6 +849,23 @@ body{
         }
     }
     /* LAPTOP */
+
+    /* LAPTOP 2*/
+    @media (min-width: 1024px) and (max-width: 1440px) {
+        .poster {
+                width: 33%; 
+                height: auto; 
+                object-fit: cover;
+                float: left;
+        }
+        .poster2 {
+            width: 33%; 
+            height: auto; 
+            object-fit: cover;
+            float: left;
+    }
+    }
+    /* LAPTOP 2*/
 
     /* TABLET */
     @media(max-width: 768px){
@@ -885,15 +910,47 @@ body{
     }
     /* TABLET */
 
-    /* TABLET 2*/
-    @media (min-width: 767px) and (max-width: 1024px) {
+    /* TABLET 2 */
+    @media (min-width: 425px) and (max-width: 768px) {
+        .caja8{
+            height: 300px;
+        }
+        .poster {
+            width: 30%; 
+            height: auto; 
+            object-fit: cover;
+            float: left;
+        }
+        .poster2 {
+            width: 30%; 
+            height: auto; 
+            object-fit: cover;
+            float: left;
+        }
+    }
+    /* TABLET 2 */
+
+    /* laptop */
+    @media (min-width: 768px) and (max-width: 1024px) {
         .kpopimg {
             width: 100%; 
             height: auto; 
             object-fit: cover;
         }
+        .poster {
+            width: 23%; 
+            height: auto; 
+            object-fit: cover;
+            float: left;
+        }
+        .poster2 {
+            width: 23%; 
+            height: auto; 
+            object-fit: cover;
+            float: left;
+        }
     }
-    /* TABLET 2*/
+    /* laptop */
 
     /* MÓVIL */
     @media(max-width: 425px){
@@ -919,6 +976,9 @@ body{
         .caja5{
             height: 250px;
         }
+        .titulo2-blog{
+            font-size: 15px;
+        }
     }
     /* MÓVIL */
 
@@ -931,6 +991,24 @@ body{
             width: 100%; 
             height: auto; 
             object-fit: cover;
+        }
+        .texto1-blog {
+            font-size: 15px;
+        }
+        .poster {
+            width: 42%; 
+            height: auto; 
+            object-fit: cover;
+            float: left;
+        }
+        .poster2 {
+            width: 42%; 
+            height: auto; 
+            object-fit: cover;
+            float: left;
+        }
+        .texto2-blog {
+            font-size: 15px;
         }
     }
     /* MÓVIL 2*/
@@ -945,8 +1023,63 @@ body{
             height: auto; 
             object-fit: cover;
         }
+        .texto1-blog {
+            font-size: 14px;
+        }
+        .caja8{
+            height: 250px;
+        }
+        .poster {
+            width: 42%; 
+            height: auto; 
+            object-fit: cover;
+            float: left;
+        }
+        .poster2 {
+            width: 42%; 
+            height: auto; 
+            object-fit: cover;
+            float: left;
+        }
+        .texto2-blog {
+            font-size: 14px;
+        }
     }
     /* MÓVIL 3*/
+
+    /* MÓVIL 4*/
+    @media(max-width: 320px) {
+        .caja5 {
+            height: 100px;
+        }
+        .kpopimg {
+            width: 100%; 
+            height: auto; 
+            object-fit: cover;
+        }
+        .texto1-blog {
+            font-size: 13px;
+        }
+        .caja8{
+            height: 205px;
+        }
+        .poster {
+            width: 42%; 
+            height: auto; 
+            object-fit: cover;
+            float: left;
+        }
+        .poster2 {
+            width: 42%; 
+            height: auto; 
+            object-fit: cover;
+            float: left;
+        }
+        .texto2-blog {
+            font-size: 13px;
+        }
+    }
+    /* MÓVIL 4*/
 
     /* Contacto */
     @media(max-width:2804px){
