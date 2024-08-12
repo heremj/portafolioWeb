@@ -86,19 +86,16 @@ body{
     margin-left: -12px;
 }
 .caja4{
-    background-color: rgb(166, 238, 32);
     height: 2000px;
 }
 
-.caja5 {
-    background-color: rgb(169, 118, 218);
+.cajakpop {
     height: 400px;
     justify-content: center;
     align-items: center;
 }
 
-.caja6 {
-    background-color: rgb(207, 115, 115);
+.cajatitulo1 {
     height: 50px;
     text-align: center;
     display: flex;
@@ -106,8 +103,7 @@ body{
     align-items: center;
 }
 
-.caja7 {
-    background-color: rgb(192, 149, 149);
+.cajatexto1 {
     height: 150px;
     text-align: center;
     display: flex;
@@ -115,15 +111,13 @@ body{
     align-items: center;
 }
 
-.caja8 {
-    background-color: rgb(169, 118, 218);
+.cajaposters {
     height: 400px;
     justify-content: center;
     align-items: center;
 }
 
-.caja9 {
-    background-color: rgb(207, 115, 115);
+.cajatitulo2 {
     height: 50px;
     text-align: center;
     display: flex;
@@ -131,8 +125,73 @@ body{
     align-items: center;
 }
 
-.caja10 {
-    background-color: rgb(192, 149, 149);
+.cajatexto2 {
+    height: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajabranding {
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajatitulo3 {
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajatexto3 {
+    height: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajaespo {
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajatitulo4 {
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajatexto4 {
+    height: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajadraw {
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajatitulo5 {
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajatexto5 {
     height: 150px;
     text-align: center;
     display: flex;
@@ -141,7 +200,6 @@ body{
 }
 
 .caja11 {
-    background-color: rgb(166, 238, 32);
     height: 2000px;
 }
 
@@ -189,6 +247,39 @@ body{
     font-family: "Arimo", sans-serif;
 }
 
+.titulo3-blog {
+    color: white;
+    font-size: 19px;
+    font-family: "Arimo", bold;
+}
+
+.texto3-blog {
+    color: white;
+    font-size: 20px;
+    font-family: "Arimo", sans-serif;
+}
+.titulo4-blog {
+    color: white;
+    font-size: 19px;
+    font-family: "Arimo", bold;
+}
+
+.texto4-blog {
+    color: white;
+    font-size: 20px;
+    font-family: "Arimo", sans-serif;
+}
+.titulo5-blog {
+    color: white;
+    font-size: 19px;
+    font-family: "Arimo", bold;
+}
+
+.texto5-blog {
+    color: white;
+    font-size: 20px;
+    font-family: "Arimo", sans-serif;
+}
 /* BLOG */
 
 
@@ -744,7 +835,7 @@ body{
 
 /* MEDIAQUERE */
     /* 4K */
-    @media(max-width: 2650px){
+    @media (min-width: 1440px) and (max-width: 2560px){
         .fotoindex{
             height: 100%;
         }
@@ -800,28 +891,32 @@ body{
         .kpopimg {
             width: 50%;
         }
-    }
-    /* 4K */
-
-    /* 4K 2*/
-    @media (min-width: 1440px) and (max-width: 2560px) {
-        .poster {
-                width: 19%; 
-                height: auto; 
-                object-fit: cover;
-                float: left;
-        }
-        .poster2 {
+        .posterimg {
             width: 19%; 
             height: auto; 
             object-fit: cover;
             float: left;
+        }
+        .posterimg2 {
+        width: 19%; 
+        height: auto; 
+        object-fit: cover;
+        float: left;
+        }
+        .brandingimg {
+            width: 45%;
+        }
+        .espoimg {
+            width: 45%;
+        }
+        .drawimg {
+            width: 45%;
+        }
     }
-    }
-    /* 4K 2*/
+    /* 4K */
 
     /* LAPTOP */
-    @media(max-width: 1440px){
+    @media (min-width: 1024px) and (max-width: 1440px){
         .fotoindex{
             height: 100%;
         }
@@ -847,30 +942,112 @@ body{
         .kpopimg {
             width: 100%;
         }
-    }
-    /* LAPTOP */
-
-    /* LAPTOP 2*/
-    @media (min-width: 1024px) and (max-width: 1440px) {
-        .poster {
-                width: 33%; 
-                height: auto; 
-                object-fit: cover;
-                float: left;
-        }
-        .poster2 {
+        .posterimg {
             width: 33%; 
             height: auto; 
             object-fit: cover;
             float: left;
+        }
+        .posterimg2 {
+            width: 33%; 
+            height: auto; 
+            object-fit: cover;
+            float: left;
+        }
+        .brandingimg {
+            width: 80%;
+        }
+        .espoimg {
+            width: 80%;
+        }
+        .drawimg {
+            width: 80%;
+        }
     }
+    /* LAPTOP */
+
+    /* LAPTOP 2 */
+    @media (min-width: 1025px) and (max-width: 1199px) {
+        .caja4{
+            display: none;
+        }
+        .caja11{
+            display: none;
+        }
+        .kpopimg{
+            width: 60%
+        }
+        .posterimg {
+            width: 20%; 
+            height: auto; 
+            object-fit: cover;
+            float: left;
+        }
+        .posterimg2 {
+            width: 20%; 
+            height: auto; 
+            object-fit: cover;
+            float: left;
+        }
+        .brandingimg {
+            width: 48%;
+        }
+        .espoimg {
+            width: 48%;
+        }
+        .drawimg {
+            width: 48%;
+        }
     }
-    /* LAPTOP 2*/
+    /* LAPTOP 2 */
+
+    /* LAPTOP 3 */
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .caja4{
+            display: none;
+        }
+        .caja11{
+            display: none;
+        }
+        .kpopimg {
+            width: 65%; 
+            height: auto; 
+            object-fit: cover;
+        }
+        .posterimg {
+            width: 23%; 
+            height: auto; 
+            object-fit: cover;
+            float: left;
+        }
+        .posterimg2 {
+            width: 23%; 
+            height: auto; 
+            object-fit: cover;
+            float: left;
+        }
+        .brandingimg {
+            width: 55%;
+        }
+        .espoimg {
+            width: 55%;
+        }
+        .drawimg {
+            width: 55%;
+        }
+    }
+    /* LAPTOP 3 */
 
     /* TABLET */
-    @media(max-width: 768px){
+    @media (min-width: 425px) and (max-width: 768px){
         .fotoindex{
             height: 100%;
+        }
+        .caja4{
+            display: none;
+        }
+        .caja11{
+            display: none;
         }
         .caja12{
             display: none;
@@ -906,54 +1083,36 @@ body{
         .kpopimg{
             width: 200%;
         }
-        
+        .cajaposters{
+            height: 380px;
+        }
+        .posterimg {
+            width: 30%; 
+            height: auto; 
+            object-fit: cover;
+            float: left;
+        }
+        .posterimg2 {
+            width: 30%; 
+            height: auto; 
+            object-fit: cover;
+            float: left;
+        }
+        .brandingimg {
+            width: 73%;
+        }
+        .espoimg {
+            width: 73%;
+        }
+        .drawimg {
+            width: 73%;
+        }
     }
     /* TABLET */
 
-    /* TABLET 2 */
-    @media (min-width: 425px) and (max-width: 768px) {
-        .caja8{
-            height: 300px;
-        }
-        .poster {
-            width: 30%; 
-            height: auto; 
-            object-fit: cover;
-            float: left;
-        }
-        .poster2 {
-            width: 30%; 
-            height: auto; 
-            object-fit: cover;
-            float: left;
-        }
-    }
-    /* TABLET 2 */
-
-    /* laptop */
-    @media (min-width: 768px) and (max-width: 1024px) {
-        .kpopimg {
-            width: 100%; 
-            height: auto; 
-            object-fit: cover;
-        }
-        .poster {
-            width: 23%; 
-            height: auto; 
-            object-fit: cover;
-            float: left;
-        }
-        .poster2 {
-            width: 23%; 
-            height: auto; 
-            object-fit: cover;
-            float: left;
-        }
-    }
-    /* laptop */
 
     /* MÓVIL */
-    @media(max-width: 425px){
+    @media (min-width: 374px) and (max-width: 425px){
         .fotoindex{
             height: 100%;
         }
@@ -961,61 +1120,101 @@ body{
             width: 50px;
             height: 20px;
         }
+        .caja4{
+            display: none;
+        }
+        .caja11{
+            display: none;
+        }
         .blog1{
             font-size: 15px;
         }
         .tituloinicio {
             font-size: 20px;
         }
-        .kpopimg{
-            width: 100%;
-        }
         .titulo1-blog{
             font-size: 15px;
         }
-        .caja5{
+        .texto1-blog {
+            font-size: 15px;
+        }
+        .cajakpop{
             height: 250px;
         }
         .titulo2-blog{
             font-size: 15px;
         }
-    }
-    /* MÓVIL */
-
-    /* MÓVIL 2*/
-    @media (min-width: 374px) and (max-width: 425px) {
-        .caja5 {
-            height: 250px;
+        .texto2-blog {
+            font-size: 15px;
         }
         .kpopimg {
             width: 100%; 
             height: auto; 
             object-fit: cover;
         }
-        .texto1-blog {
+        .posterimg {
+            width: 42%; 
+            height: auto; 
+            object-fit: cover;
+            float: left;
+        }
+        .posterimg2 {
+            width: 42%; 
+            height: auto; 
+            object-fit: cover;
+            float: left;
+        }
+        .cajaposters{
+            height: 300px;
+        }
+        .brandingimg {
+            width: 90%;
+        }
+        .cajabranding{
+            height: 270px;
+        }
+        .titulo3-blog {
             font-size: 15px;
         }
-        .poster {
-            width: 42%; 
-            height: auto; 
-            object-fit: cover;
-            float: left;
+        .texto3-blog {
+            font-size: 15px;
         }
-        .poster2 {
-            width: 42%; 
-            height: auto; 
-            object-fit: cover;
-            float: left;
+        .espoimg {
+            width: 90%;
         }
-        .texto2-blog {
+        .cajaespo{
+            height: 270px;
+        }
+        .titulo4-blog {
+            font-size: 15px;
+        }
+        .texto4-blog {
+            font-size: 15px;
+        }
+        .drawimg {
+            width: 90%;
+        }
+        .cajadraw{
+            height: 270px;
+        }
+        .titulo5-blog {
+            font-size: 15px;
+        }
+        .texto5-blog {
             font-size: 15px;
         }
     }
-    /* MÓVIL 2*/
+    /* MÓVIL */
 
-    /* MÓVIL 3*/
+    /* MÓVIL 2*/
     @media (min-width: 319px) and (max-width: 375px) {
-        .caja5 {
+        .caja4{
+            display: none;
+        }
+        .caja11{
+            display: none;
+        }
+        .cajakpop {
             height: 150px;
         }
         .kpopimg {
@@ -1026,16 +1225,16 @@ body{
         .texto1-blog {
             font-size: 14px;
         }
-        .caja8{
+        .cajaposters{
             height: 250px;
         }
-        .poster {
+        .posterimg {
             width: 42%; 
             height: auto; 
             object-fit: cover;
             float: left;
         }
-        .poster2 {
+        .posterimg2 {
             width: 42%; 
             height: auto; 
             object-fit: cover;
@@ -1044,13 +1243,37 @@ body{
         .texto2-blog {
             font-size: 14px;
         }
+        .cajabranding{
+            height: 240px;
+        }
+        .texto3-blog {
+            font-size: 14px;
+        }
+        .cajaespo{
+            height: 240px;
+        }
+        .texto4-blog {
+            font-size: 14px;
+        }
+        .cajadraw{
+            height: 240px;
+        }
+        .texto5-blog {
+            font-size: 14px;
+        }
     }
-    /* MÓVIL 3*/
+    /* MÓVIL 2*/
 
-    /* MÓVIL 4*/
+    /* MÓVIL 3*/
     @media(max-width: 320px) {
-        .caja5 {
-            height: 100px;
+        .caja4{
+            display: none;
+        }
+        .caja11{
+            display: none;
+        }
+        .cajakpop {
+            height: 180px;
         }
         .kpopimg {
             width: 100%; 
@@ -1060,16 +1283,19 @@ body{
         .texto1-blog {
             font-size: 13px;
         }
-        .caja8{
+        .titulo1-blog {
+            font-size: 15px;
+        }
+        .cajaposters{
             height: 205px;
         }
-        .poster {
+        .posterimg {
             width: 42%; 
             height: auto; 
             object-fit: cover;
             float: left;
         }
-        .poster2 {
+        .posterimg2 {
             width: 42%; 
             height: auto; 
             object-fit: cover;
@@ -1078,8 +1304,47 @@ body{
         .texto2-blog {
             font-size: 13px;
         }
+        .titulo2-blog {
+            font-size: 15px;
+        }
+        .brandingimg{
+            width: 100%;
+        }
+        .cajabranding{
+            height: 225px;
+        }
+        .texto3-blog {
+            font-size: 13px;
+        }
+        .titulo3-blog {
+            font-size: 15px;
+        }
+        .espoimg{
+            width: 100%;
+        }
+        .cajaespo{
+            height: 225px;
+        }
+        .texto4-blog {
+            font-size: 13px;
+        }
+        .titulo4-blog {
+            font-size: 15px;
+        }
+        .drawimg{
+            width: 100%;
+        }
+        .cajadraw{
+            height: 225px;
+        }
+        .texto5-blog {
+            font-size: 13px;
+        }
+        .titulo5-blog {
+            font-size: 15px;
+        }
     }
-    /* MÓVIL 4*/
+    /* MÓVIL 3*/
 
     /* Contacto */
     @media(max-width:2804px){
@@ -1097,20 +1362,6 @@ body{
     }
     /* Contacto */
 
-    /* Blog */
-    @media(max-width:1199px){
-        .caja4{
-            display: none;
-        }
-        .caja11{
-            display: none;
-        }
-        .kpopimg{
-            width: 60%
-        }
-    }
-    /* Blog */
-
 /* AYUDA IA */
     
     /* Estilo para caja5 en tabletas */
@@ -1125,3 +1376,4 @@ body{
         object-fit: cover;
     }
 }
+
