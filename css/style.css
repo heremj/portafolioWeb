@@ -215,12 +215,51 @@ body{
     color: #D0FF00;
 }
 
-.blogtitulo {
+.blogtitulo1 {
     color: white;
     font-size: 80px;
     font-family: "Arimo", sans-serif;
     text-align: center;
-    padding-top: 100px;
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-weight: 700;
+    flex-shrink: 0;
+    z-index: 3;
+}
+
+.blogtitulo2 {
+    margin: 0;
+    position: relative;
+    font-size: 80px;
+    line-height: 127px;
+    font-weight: 700;
+    font-family: "Arimo", sans-serif;
+    flex-shrink: 0;
+    color: #d0ff0028;
+    text-align: center;
+    align-self: stretch;
+    text-shadow: 4px 0 0 rgba(208, 255, 0, 0.308), 0 4px 0 rgba(208, 255, 0, 0.267),
+    -4px 0 0 rgba(208, 255, 0, 0.171), 0-4px 0 rgba(208, 255, 0, 0);
+    z-index: 2;
+}
+
+.blogtitulo3 {
+    margin: 0;
+    position: relative;
+    font-size: 80px;
+    line-height: 127px;
+    font-weight: 700;
+    font-family: "Arimo", sans-serif;
+    flex-shrink: 0;
+    color: #d0ff0028;
+    text-align: center;
+    padding-top: 50px;    
+    flex: 1;
+    text-shadow: 4px 0 0 rgba(208, 255, 0, 0), 0 4px 0 rgba(208, 255, 0, 0.103),
+    -4px 0 0 rgba(208, 255, 0, 0.137), 0-4px 0 rgba(208, 255, 0, 0.151);
+    max-width: 100%;
+    z-index: 1;
 }
 
 .titulo1-blog {
@@ -290,7 +329,9 @@ body{
 }
 
 .caja13 {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 250px;
 }
 
@@ -314,6 +355,7 @@ body{
 }
 
 .inicio1 {
+    font-weight: bold;
     color: white;
     font-size: 30px;
     font-family: "Arimo", sans-serif; 
@@ -339,7 +381,46 @@ body{
     font-size: 80px;
     font-family: "Arimo", sans-serif;
     text-align: center;
-    padding-top: 100px;
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-weight: 700;
+    flex-shrink: 0;
+    z-index: 3;
+}
+
+.portafoliotitulo2 {
+    margin: 0;
+    position: relative;
+    font-size: 80px;
+    line-height: 127px;
+    font-weight: 700;
+    font-family: "Arimo", sans-serif;
+    flex-shrink: 0;
+    color: #d0ff0028;
+    text-align: center;
+    align-self: stretch;
+    text-shadow: 4px 0 0 rgba(208, 255, 0, 0.308), 0 4px 0 rgba(208, 255, 0, 0.267),
+    -4px 0 0 rgba(208, 255, 0, 0.171), 0-4px 0 rgba(208, 255, 0, 0);
+    z-index: 2;
+}
+
+.portafoliotitulo3 {
+    margin: 0;
+    position: relative;
+    font-size: 80px;
+    line-height: 127px;
+    font-weight: 700;
+    font-family: "Arimo", sans-serif;
+    flex-shrink: 0;
+    color: #d0ff0028;
+    text-align: center;
+    padding-top: 50px;    
+    flex: 1;
+    text-shadow: 4px 0 0 rgba(208, 255, 0, 0), 0 4px 0 rgba(208, 255, 0, 0.103),
+    -4px 0 0 rgba(208, 255, 0, 0.137), 0-4px 0 rgba(208, 255, 0, 0.151);
+    max-width: 100%;
+    z-index: 1;
 }
 
 .branding1 {
@@ -878,6 +959,9 @@ body{
         }
         .blog1{
             font-size: 80px;
+        }
+        .inicio1 {
+            font-size: 50px;
         }
         .portafolio1 {
             font-size: 50px;
