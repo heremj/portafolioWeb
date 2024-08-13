@@ -84,10 +84,91 @@ body{
     width: 100%;
     padding: 0px 0px;
     margin-left: -12px;
+    z-index: 4;
 }
 .caja4{
     height: 2000px;
 }
+
+.caja3 {
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    margin-bottom: 30px;
+}
+
+.caritaimg {
+    width: 169.76px;
+}
+
+.starrosadaimg {
+    width: 97px;
+}
+
+.ositosimg {
+    width: 189px;
+}
+
+.starazulimg {
+    width: 88.52px;
+}
+
+/* Imagenes del costado */
+ .ositosimg2 {
+    width: 189px;
+}
+ .caritaimg2 {
+    width: 169.76px;
+}
+ .starazulimg2 {
+    width: 88.52px;
+}
+ .staramarillaimg {
+    width: 100px;
+}
+ .starazulimg3 {
+    width: 88.52px;
+}
+ .starrosadaimg2 {
+    width: 97px;
+}
+.ositosimg3 {
+    width: 189px;
+}
+.starazulimg4 {
+    width: 88.52px;
+}
+.caritaimg3 {
+    width: 169.76px;
+}
+.staramarillaimg2 {
+    width: 100px;
+}
+.ositosimg4 {
+    width: 189px;
+}
+.starrosadaimg3 {
+    width: 97px;
+}
+.caritaimg4 {
+    width: 169.76px;
+}
+.ositosimg5 {
+    width: 189px;
+}
+.starazulimg5 {
+    width: 88.52px;
+}
+.staramarillaimg3 {
+    width: 100px;
+}
+.staramarillaimg4 {
+    width: 100px;
+}
+.starazulimg6 {
+    width: 88.52px;
+}
+/* Imagenes del costado */
 
 .cajakpop {
     height: 400px;
@@ -215,53 +296,6 @@ body{
     color: #D0FF00;
 }
 
-.blogtitulo1 {
-    color: white;
-    font-size: 80px;
-    font-family: "Arimo", sans-serif;
-    text-align: center;
-    margin: 0;
-    align-self: stretch;
-    position: relative;
-    font-weight: 700;
-    flex-shrink: 0;
-    z-index: 3;
-}
-
-.blogtitulo2 {
-    margin: 0;
-    position: relative;
-    font-size: 80px;
-    line-height: 127px;
-    font-weight: 700;
-    font-family: "Arimo", sans-serif;
-    flex-shrink: 0;
-    color: #d0ff0028;
-    text-align: center;
-    align-self: stretch;
-    text-shadow: 4px 0 0 rgba(208, 255, 0, 0.308), 0 4px 0 rgba(208, 255, 0, 0.267),
-    -4px 0 0 rgba(208, 255, 0, 0.171), 0-4px 0 rgba(208, 255, 0, 0);
-    z-index: 2;
-}
-
-.blogtitulo3 {
-    margin: 0;
-    position: relative;
-    font-size: 80px;
-    line-height: 127px;
-    font-weight: 700;
-    font-family: "Arimo", sans-serif;
-    flex-shrink: 0;
-    color: #d0ff0028;
-    text-align: center;
-    padding-top: 50px;    
-    flex: 1;
-    text-shadow: 4px 0 0 rgba(208, 255, 0, 0), 0 4px 0 rgba(208, 255, 0, 0.103),
-    -4px 0 0 rgba(208, 255, 0, 0.137), 0-4px 0 rgba(208, 255, 0, 0.151);
-    max-width: 100%;
-    z-index: 1;
-}
-
 .titulo1-blog {
     color: white;
     font-size: 20px;
@@ -329,25 +363,25 @@ body{
 }
 
 .caja13 {
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 250px;
+    margin-bottom: 50px;
 }
 
 .caja14 {
-    height: 200px;
+    height: 150px;
     justify-content: center;
     align-items: center;
 }
 
 .caja15 {
 
-    height: 200px;
+    height: 150px;
 }
 
 .caja16 {
-    height: 200px;
+    height: 150px;
 }
 
 .caja17 {
@@ -374,53 +408,6 @@ body{
     font-size: 30px;
     font-family: "Arimo", sans-serif;
     text-align: center;
-}
-
-.portafoliotitulo {
-    color: white;
-    font-size: 80px;
-    font-family: "Arimo", sans-serif;
-    text-align: center;
-    margin: 0;
-    align-self: stretch;
-    position: relative;
-    font-weight: 700;
-    flex-shrink: 0;
-    z-index: 3;
-}
-
-.portafoliotitulo2 {
-    margin: 0;
-    position: relative;
-    font-size: 80px;
-    line-height: 127px;
-    font-weight: 700;
-    font-family: "Arimo", sans-serif;
-    flex-shrink: 0;
-    color: #d0ff0028;
-    text-align: center;
-    align-self: stretch;
-    text-shadow: 4px 0 0 rgba(208, 255, 0, 0.308), 0 4px 0 rgba(208, 255, 0, 0.267),
-    -4px 0 0 rgba(208, 255, 0, 0.171), 0-4px 0 rgba(208, 255, 0, 0);
-    z-index: 2;
-}
-
-.portafoliotitulo3 {
-    margin: 0;
-    position: relative;
-    font-size: 80px;
-    line-height: 127px;
-    font-weight: 700;
-    font-family: "Arimo", sans-serif;
-    flex-shrink: 0;
-    color: #d0ff0028;
-    text-align: center;
-    padding-top: 50px;    
-    flex: 1;
-    text-shadow: 4px 0 0 rgba(208, 255, 0, 0), 0 4px 0 rgba(208, 255, 0, 0.103),
-    -4px 0 0 rgba(208, 255, 0, 0.137), 0-4px 0 rgba(208, 255, 0, 0.151);
-    max-width: 100%;
-    z-index: 1;
 }
 
 .branding1 {
@@ -470,13 +457,41 @@ body{
 .ilustracion1 a:hover{
     color: #D0FF00;
 }
-
+/* Imagenes al costado portafolio */
+.ositosimg6 {
+    width: 189px;
+}
+.megafonoimg {
+    width: 350.24px;
+}
+.starazulimg7 {
+    width: 88.52px;
+}
+.trebolparadoimg {
+    width: 180px;
+}
+.starrosadaimg4 {
+    width: 97px;
+}
+.dedoimg {
+    width: 362.92px;
+}
+.staramarillaimg5 {
+    width: 100px;
+}
+.pezimg {
+    width: 242px;
+}
+/* Imagenes al costado portafolio */
 /* PORTAFOLIO */
 
 
 /* SOBRE MÍ */
 .caja18 {
-    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 600px;
 }
 
 .caja19 {
@@ -487,15 +502,9 @@ body{
 }
 
 .caja20 {
+    justify-content: center;
+    align-items: center;
     height: 500px;
-}
-
-.sobremititulo {
-    color: white;
-    font-size: 80px;
-    font-family: "Arimo", sans-serif;
-    text-align: center;
-    padding-top: 100px;
 }
 
 .inicio1 {
@@ -671,24 +680,38 @@ body{
 
 
 /* BRANDING */
+.header-branding{
+    background-color: #000000;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    padding: 0px 0px;
+    margin-left: -12px;
+}
 .caja31 {
     background-color: rgb(101, 197, 165);
     height: 300px;
 }
 
 .caja32 {
-    background-color: rgb(162, 162, 250);
-    height: 500px;
+    justify-content: center;
+    align-items: center;
+    height: auto;
 }
 
 .caja33 {
-    background-color: rgb(169, 224, 158);
-    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
 }
 
 .caja34 {
-    background-color: rgb(250, 162, 216);
-    height: 500px;
+    justify-content: center;
+    align-items: center;
+    height: auto;
 }
 
 .inicio1 {
@@ -718,6 +741,15 @@ body{
     font-family: "Arimo", sans-serif;
     text-align: center;
     padding-top: 100px;
+}
+.manualimg1{
+    width: 100%;
+}
+.manualimg2{
+    width: 40%;
+}
+.manualimg3{
+    width: 100%;
 }
 /* BRANDING */
 
@@ -810,6 +842,22 @@ body{
     background-color: rgb(250, 162, 216);
     height: 500px;
 }
+.caja44 {
+    background-color: rgb(175, 4, 110);
+    height: 500px;
+}
+.caja45 {
+    background-color: rgb(177, 96, 146);
+    height: 500px;
+}
+.caja46 {
+    background-color: rgb(102, 33, 76);
+    height: 500px;
+}
+.caja47 {
+    background-color: rgb(250, 162, 216);
+    height: 500px;
+}
 
 .inicio1 {
     color: white;
@@ -839,6 +887,7 @@ body{
     text-align: center;
     padding-top: 100px;
 }
+
 /* ILUSTRACIÓN */
 
 /* hamburguesa */
@@ -972,6 +1021,140 @@ body{
         .contacto1 {
             font-size: 50px;
         }
+        .blogimg{
+            width: 20%;
+            margin-top: 60px;
+        }
+        .caritaimg {
+            position: absolute;
+            top: 39.77px;
+            left: 750.72px;
+        }
+        .starrosadaimg {
+            position: absolute;
+            top: 200px;
+            left: 500px;
+        }
+        .ositosimg {
+            position: absolute;
+            top: 50px;
+            left: 1600.6px;
+        }
+        .starazulimg {
+            position: absolute;
+            top: 200.33px;
+            left: 1800px;
+        }
+        /* Imagenes del costado */
+        .ositosimg2 {
+            position: absolute;
+            top: 500px;
+            left: 500.6px;
+            width: 189px;
+        }
+        .caritaimg2 {
+            position: absolute;
+            top: 900px;
+            left: 500.09px;
+            width: 169.76px;
+        }
+        .starazulimg2 {
+            position: absolute;
+            top: 1200.33px;
+            left: 600px;
+            width: 88.52px;
+        }
+        .staramarillaimg {
+            position: absolute;
+            top: 1300px;
+            left: 400px;
+            width: 100px;
+        }
+        .starazulimg3 {
+            position: absolute;
+            top: 1700.33px;
+            left: 500px;
+            width: 88.52px;
+        }
+        .starrosadaimg2 {
+            position: absolute;
+            top: 2100px;
+            left: 400px;
+            width: 97px;
+        }
+        .ositosimg3 {
+            position: absolute;
+            top: 2300px;
+            left: 500.6px;
+            width: 189px;
+        }
+        .starazulimg4 {
+            position: absolute;
+            top: 2800.33px;
+            left: 600px;
+            width: 88.52px;
+        }
+        .caritaimg3 {
+            position: absolute;
+            top: 3000px;
+            left: 500.09px;
+            width: 169.76px;
+        }
+        .staramarillaimg2 {
+            position: absolute;
+            top: 500px;
+            left: 1900px;
+            width: 100px;
+        }
+        .ositosimg4 {
+            position: absolute;
+            top: 800px;
+            left: 2000px;
+            width: 189px;
+        }
+        .starrosadaimg3 {
+            position: absolute;
+            top: 1150px;
+            left: 1900px;
+            width: 97px;
+        }
+        .caritaimg4 {
+            position: absolute;
+            top: 1500px;
+            left: 2000.09px;
+            width: 169.76px;
+        }
+        .ositosimg5 {
+            position: absolute;
+            top: 1800px;
+            left: 1900px;
+            width: 189px;
+        }
+        .starazulimg5 {
+            position: absolute;
+            top: 2100px;
+            left: 1900px;
+            width: 88.52px;
+        }
+        .staramarillaimg3 {
+            position: absolute;
+            top: 2400px;
+            left: 1800px;
+            width: 100px;
+        }
+        .staramarillaimg4 {
+            position: absolute;
+            top: 2700px;
+            left: 1700px;
+            width: 100px;
+        }
+        .starazulimg6 {
+            position: absolute;
+            top: 3000px;
+            left: 1850px;
+            width: 88.52px;
+        }
+        /* Imagenes del costado */
         .kpopimg {
             width: 50%;
         }
@@ -996,6 +1179,102 @@ body{
         .drawimg {
             width: 45%;
         }
+        .portafolioimg{
+            width: 70%;
+            margin-top: 20px;
+        }
+        .sobremiimg{
+            width: 90%;
+        }
+        .caja32 {
+            height: 1900px;
+        }
+        .caja33 {
+            height: 1900px;
+        }
+        .caja34 {
+            height: 1900px;
+        }
+        .dibujoimg1{
+            width: 100%;
+        }
+        .dibujoimg2{
+            width: 100%;
+        }
+        .dibujoimg3{
+            width: 100%;
+        }
+        .dibujoimg4{
+            width: 100%;
+        }
+        .dibujoimg5{
+            width: 100%;
+        }
+        .caja42 {  
+            height: auto;
+        }   
+        .caja43 {
+            height: auto;
+        }
+        .caja44 {
+            height: auto;
+        }
+        .caja45 {
+            height: auto;
+        }
+        .caja46 {
+            height: auto;
+        }
+        /* Imagenes al costado portafolio */
+        .ositosimg6 {
+            position: absolute;
+            top: 178px;
+            left: 150.6px;
+            width: 189px;
+        }
+        .megafonoimg {
+            position: absolute;
+            top: 410.2px;
+            left: 5px;
+            width: 350.24px;
+        }
+        .starazulimg7 {
+            position: absolute;
+            top: 726.33px;
+            left: 550px;
+            width: 88.52px;
+        }
+        .trebolparadoimg {
+            position: absolute;
+            top: 774px;
+            left: 250px;
+            width: 180px;
+        }
+        .starrosadaimg4 {
+            position: absolute;
+            top: 951px;
+            left: 1150px;
+            width: 97px;
+        }
+        .dedoimg {
+            position: absolute;
+            top: 677.87px;
+            left: 1624.07px;
+            width: 362.92px;
+        }
+        .staramarillaimg5 {
+            position: absolute;
+            top: 451px;
+            left: 1371px;
+            width: 100px;
+        }
+        .pezimg {
+            position: absolute;
+            top: 774px;
+            left: 1612px;
+            width: 242px;
+        }
+        /* Imagenes al costado portafolio */
     }
     /* 4K */
 
@@ -1004,12 +1283,19 @@ body{
         .fotoindex{
             height: 100%;
         }
+        .inicio1{
+            font-size: 30px;
+        }
         .caja22 {
             margin-bottom: 10px;
         }
         .caja2{
             width: 200px;
             height: 80px;
+        }
+        .blogimg{
+            width: 40%;
+            margin-top: 60px;
         }
         .blog1{
             font-size: 50px;
@@ -1023,6 +1309,136 @@ body{
         .contacto1 {
             font-size: 30px;
         }
+        .caritaimg {
+            position: absolute;
+            top: 39.77px;
+            left: 200.72px;
+        }
+        .starrosadaimg {
+            position: absolute;
+            top: 200px;
+            left: 100px;
+        }
+        .ositosimg {
+            position: absolute;
+            top: 50px;
+            left: 1100.6px;
+        }
+        .starazulimg {
+            position: absolute;
+            top: 200.33px;
+            left: 1200px;
+        }
+        /* Imagenes del costado */
+        .ositosimg2 {
+            position: absolute;
+            top: 500px;
+            left: 100.6px;
+            width: 189px;
+        }
+        .caritaimg2 {
+            position: absolute;
+            top: 900px;
+            left: 180.09px;
+            width: 169.76px;
+        }
+        .starazulimg2 {
+            position: absolute;
+            top: 1200.33px;
+            left: 90px;
+            width: 88.52px;
+        }
+        .staramarillaimg {
+            position: absolute;
+            top: 1400px;
+            left: 200px;
+            width: 100px;
+        }
+        .starazulimg3 {
+            position: absolute;
+            top: 1700.33px;
+            left: 150px;
+            width: 88.52px;
+        }
+        .starrosadaimg2 {
+            position: absolute;
+            top: 2100px;
+            left: 150px;
+            width: 97px;
+        }
+        .ositosimg3 {
+            position: absolute;
+            top: 2300px;
+            left: 200.6px;
+            width: 189px;
+        }
+        .starazulimg4 {
+            position: absolute;
+            top: 2800.33px;
+            left: 100px;
+            width: 88.52px;
+        }
+        .caritaimg3 {
+            position: absolute;
+            top: 3000px;
+            left: 200.09px;
+            width: 169.76px;
+        }
+        .staramarillaimg2 {
+            position: absolute;
+            top: 500px;
+            left: 1100px;
+            width: 100px;
+        }
+        .ositosimg4 {
+            position: absolute;
+            top: 900px;
+            left: 1100px;
+            width: 189px;
+        }
+        .starrosadaimg3 {
+            position: absolute;
+            top: 1150px;
+            left: 1300px;
+            width: 97px;
+        }
+        .caritaimg4 {
+            position: absolute;
+            top: 1500px;
+            left: 1000.09px;
+            width: 169.76px;
+        }
+        .ositosimg5 {
+            position: absolute;
+            top: 1800px;
+            left: 1250px;
+            width: 189px;
+        }
+        .starazulimg5 {
+            position: absolute;
+            top: 2100px;
+            left: 1100px;
+            width: 88.52px;
+        }
+        .staramarillaimg3 {
+            position: absolute;
+            top: 2400px;
+            left: 1250px;
+            width: 100px;
+        }
+        .staramarillaimg4 {
+            position: absolute;
+            top: 2700px;
+            left: 1100px;
+            width: 100px;
+        }
+        .starazulimg6 {
+            position: absolute;
+            top: 3000px;
+            left: 1250px;
+            width: 88.52px;
+        }
+        /* Imagenes del costado */
         .kpopimg {
             width: 100%;
         }
@@ -1047,6 +1463,42 @@ body{
         .drawimg {
             width: 80%;
         }
+        .portafolioimg{
+            width: 80%;
+        }
+        .caja32{
+            height: auto;
+        }
+        .dibujoimg1{
+            width: 100%;
+        }
+        .dibujoimg2{
+            width: 100%;
+        }
+        .dibujoimg3{
+            width: 100%;
+        }
+        .dibujoimg4{
+            width: 100%;
+        }
+        .dibujoimg5{
+            width: 100%;
+        }
+        .caja42 {  
+            height: auto;
+        }   
+        .caja43 {
+            height: auto;
+        }
+        .caja44 {
+            height: auto;
+        }
+        .caja45 {
+            height: auto;
+        }
+        .caja46 {
+            height: auto;
+        }
     }
     /* LAPTOP */
 
@@ -1056,6 +1508,12 @@ body{
             display: none;
         }
         .caja11{
+            display: none;
+        }
+        .caja12{
+            display: none;
+        }
+        .caja17{
             display: none;
         }
         .kpopimg{
@@ -1082,16 +1540,79 @@ body{
         .drawimg {
             width: 48%;
         }
+        .portafolioimg{
+            width: 80%;
+        }
+        .dibujoimg1{
+            width: 100%;
+        }
+        .dibujoimg2{
+            width: 100%;
+        }
+        .dibujoimg3{
+            width: 100%;
+        }
+        .dibujoimg4{
+            width: 100%;
+        }
+        .dibujoimg5{
+            width: 100%;
+        }
+        .caja42 {  
+            height: auto;
+        }   
+        .caja43 {
+            height: auto;
+        }
+        .caja44 {
+            height: auto;
+        }
+        .caja45 {
+            height: auto;
+        }
+        .caja46 {
+            height: auto;
+        }
     }
     /* LAPTOP 2 */
 
     /* LAPTOP 3 */
     @media (min-width: 768px) and (max-width: 1024px) {
+        .blogimg{
+            width: 60%;
+            margin-top: 60px;
+        }
         .caja4{
             display: none;
         }
         .caja11{
             display: none;
+        }
+        .caja12{
+            display: none;
+        }
+        .caja17{
+            display: none;
+        }
+        .caritaimg {
+            position: absolute;
+            top: 39.77px;
+            left: 50.72px;
+        }
+        .starrosadaimg {
+            position: absolute;
+            top: 200px;
+            left: 20px;
+        }
+        .ositosimg {
+            position: absolute;
+            top: 50px;
+            left: 800.6px;
+        }
+        .starazulimg {
+            position: absolute;
+            top: 200.33px;
+            left: 900px;
         }
         .kpopimg {
             width: 65%; 
@@ -1119,6 +1640,43 @@ body{
         .drawimg {
             width: 55%;
         }
+        .caja13{
+            height: 150px;
+        }
+        .portafolioimg{
+            margin-top: 20px;
+            width: 90%;
+        }
+        .dibujoimg1{
+            width: 100%;
+        }
+        .dibujoimg2{
+            width: 100%;
+        }
+        .dibujoimg3{
+            width: 100%;
+        }
+        .dibujoimg4{
+            width: 100%;
+        }
+        .dibujoimg5{
+            width: 100%;
+        }
+        .caja42 {  
+            height: auto;
+        }   
+        .caja43 {
+            height: auto;
+        }
+        .caja44 {
+            height: auto;
+        }
+        .caja45 {
+            height: auto;
+        }
+        .caja46 {
+            height: auto;
+        }
     }
     /* LAPTOP 3 */
 
@@ -1126,6 +1684,13 @@ body{
     @media (min-width: 425px) and (max-width: 768px){
         .fotoindex{
             height: 100%;
+        }
+        .caja3{
+            height: 250px;
+        }
+        .blogimg{
+            width: 55%;
+            margin-top: 60px;
         }
         .caja4{
             display: none;
@@ -1140,9 +1705,6 @@ body{
             display: none;
         }
         .portafoliotitulo{
-            font-size: 50px;
-        }
-        .sobremititulo{
             font-size: 50px;
         }
         .contactotitulo{
@@ -1163,6 +1725,26 @@ body{
         }
         .blog1{
             font-size: 30px;
+        }
+        .caritaimg {
+            position: absolute;
+            top: 39.77px;
+            left: 30.72px;
+        }
+        .starrosadaimg {
+            position: absolute;
+            top: 200px;
+            left: 20px;
+        }
+        .ositosimg {
+            position: absolute;
+            top: 50px;
+            left: 580.6px;
+        }
+        .starazulimg {
+            position: absolute;
+            top: 200.33px;
+            left: 650px;
         }
         .kpopimg{
             width: 200%;
@@ -1191,6 +1773,48 @@ body{
         .drawimg {
             width: 73%;
         }
+        .caja13{
+            margin: 0;
+        }
+        .portafolioimg{
+            width: 90%;
+        }
+        .dibujoimg1{
+            width: 100%;
+        }
+        .dibujoimg2{
+            width: 100%;
+        }
+        .dibujoimg3{
+            width: 100%;
+        }
+        .dibujoimg4{
+            width: 100%;
+        }
+        .dibujoimg5{
+            width: 100%;
+        }
+        .caja42 {  
+            height: auto;
+        }   
+        .caja43 {
+            height: auto;
+        }
+        .caja44 {
+            height: auto;
+        }
+        .caja45 {
+            height: auto;
+        }
+        .caja46 {
+            height: auto;
+        }
+        .caja41{
+            display: none;
+        }
+        .caja47{
+            display: none;
+        }
     }
     /* TABLET */
 
@@ -1203,6 +1827,37 @@ body{
         .caja2{
             width: 50px;
             height: 20px;
+        }
+        .caja3{
+            height: 120px;
+        }
+        .blogimg{
+            width: 55%;
+            margin-top: 60px;
+        }
+        .caritaimg {
+            width: 100.76px;
+            position: absolute;
+            top: 39.77px;
+            left: 10.72px;
+        }
+        .starrosadaimg {
+            width: 65px;
+            position: absolute;
+            top: 130px;
+            left: 5px;
+        }
+        .ositosimg {
+            width: 120px;
+            position: absolute;
+            top: 50px;
+            left: 300.6px;
+        }
+        .starazulimg {
+            width: 70.52px;
+            position: absolute;
+            top: 130.33px;
+            left: 350px;
         }
         .caja4{
             display: none;
@@ -1287,19 +1942,72 @@ body{
         .texto5-blog {
             font-size: 15px;
         }
+        .caja13{
+            height: 100px;
+            margin: 0;
+        }
+        .portafolioimg{
+            margin: 0;
+        }
+        .caja14{
+            height: 100px;
+        }
+        .caja15{
+            height: 100px;
+        }
+        .caja16{
+            height: 100px;
+        }
     }
     /* MÓVIL */
 
     /* MÓVIL 2*/
     @media (min-width: 319px) and (max-width: 375px) {
+        .caja3{
+            height: 150px;
+        }
+        .blogimg{
+            width: 75%;
+            margin-top: 60px;
+        }
+        .caritaimg {
+            width: 80.76px;
+            position: absolute;
+            top: 39.77px;
+            left: 1.72px;
+        }
+        .starrosadaimg {
+            width: 45px;
+            position: absolute;
+            top: 130px;
+            left: 5px;
+        }
+        .ositosimg {
+            width: 80px;
+            position: absolute;
+            top: 50px;
+            left: 300.6px;
+        }
+        .starazulimg {
+            width: 50.52px;
+            position: absolute;
+            top: 130.33px;
+            left: 330px;
+        }
         .caja4{
             display: none;
         }
         .caja11{
             display: none;
         }
+        .caja12{
+            display: none;
+        }
+        .caja17{
+            display: none;
+        }
         .cajakpop {
-            height: 150px;
+            height: 200px;
         }
         .kpopimg {
             width: 100%; 
@@ -1345,6 +2053,21 @@ body{
         .texto5-blog {
             font-size: 14px;
         }
+        .caja13{
+            margin: 0;
+            padding: 0;
+        }
+        .portafolioimg{
+            width: 85%;
+            margin: 0;
+            padding: 0;
+        }
+        .caja41{
+            display: none;
+        }
+        .caja47{
+            display: none;
+        }
     }
     /* MÓVIL 2*/
 
@@ -1358,6 +2081,30 @@ body{
         }
         .cajakpop {
             height: 180px;
+        }
+        .caritaimg {
+            width: 70.76px;
+            position: absolute;
+            top: 39.77px;
+            left: 1.72px;
+        }
+        .starrosadaimg {
+            width: 45px;
+            position: absolute;
+            top: 130px;
+            left: 5px;
+        }
+        .ositosimg {
+            width: 70px;
+            position: absolute;
+            top: 50px;
+            left: 250.6px;
+        }
+        .starazulimg {
+            width: 50.52px;
+            position: absolute;
+            top: 130.33px;
+            left: 270px;
         }
         .kpopimg {
             width: 100%; 
@@ -1426,6 +2173,34 @@ body{
         }
         .titulo5-blog {
             font-size: 15px;
+        }
+        .caja13{
+            height: 100px;
+            margin: 0;
+            padding: 0;
+        }
+        .portafolioimg{
+            width: 85%;
+            margin: 0;
+            padding: 0;
+        }
+        .caja14{
+            height: 80px;
+        }
+        .caja15{
+            height: 80px;
+        }
+        .caja16{
+            height: 80px;
+        }
+        .branding1{
+            font-size: 30px;
+        }
+        .edicion1{
+            font-size: 30px;
+        }
+        .ilustracion1{
+            font-size: 30px;
         }
     }
     /* MÓVIL 3*/
